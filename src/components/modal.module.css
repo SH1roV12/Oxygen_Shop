@@ -1,0 +1,31 @@
+.modal_wrapper{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999;
+    background-color: rgba(73,73,73, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    overflow: scroll;
+}
+
+.modal_item{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    border: 2px solid black;
+}
+
+.modal_item_img{
+    width: 10%;
+    height: 100%;
+}
