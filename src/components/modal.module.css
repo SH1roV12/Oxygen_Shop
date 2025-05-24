@@ -16,16 +16,37 @@
     width: 80%;
     height: 80%;
     overflow: scroll;
+    border-radius: 10px;
 }
 
 .modal_item{
+    max-height: 20%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 95%;
     align-items: center;
     justify-content: space-around;
     display: flex;
-    border: 2px solid black;
+    background-color: rgb(139, 139, 139);
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .modal_item_img{
     width: 10%;
     height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.modal_button{
+    padding: 5px 50px;
+    background-color:  rgb(101, 77, 122);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title{
+    text-align: center;
 }

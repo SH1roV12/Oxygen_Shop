@@ -14,7 +14,7 @@ export default function Modal_Window({closeModal, dispatch, cart}: Props){
             }
             }}>
             <div className={styles.modal}>
-                <h2>Корзина</h2>
+                <h2 className={styles.title}>Корзина</h2>
                 {cart.map((item)=>(
                     <div key={item.id} className={styles.modal_item}>
                         <img src={item.img} className={styles.modal_item_img}></img>
@@ -23,7 +23,7 @@ export default function Modal_Window({closeModal, dispatch, cart}: Props){
                         <h3>{item.quantity}  шт</h3>
                         <button onClick={()=>{
                             dispatch({type:"Remove_Item", payload:item.id})
-                        }}>Удалить</button>
+                        }} className={styles.modal_button}>Удалить</button>
                     </div>
                 ))}
             </div>
