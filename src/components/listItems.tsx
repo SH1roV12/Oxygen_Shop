@@ -15,10 +15,10 @@ export default function ListOfItems({ openModal, dispatch}: Props){
     <div>
       <header className={styles.header}>
         
-        <img src="/logo.png" className={styles.logo}></img>
+        <img src="/Oxygen_Shop/logo.png" className={styles.logo}></img>
         <h1 className={styles.title}>Oxygen</h1>
         <div className={styles.cart} onClick={openModal}>
-            <img src="/cart.png" className={styles.cart_img}></img>
+            <img src="/Oxygen_Shop/cart.png" className={styles.cart_img}></img>
         </div>
       </header>
       <main className={styles.main_list}>
